@@ -5,7 +5,7 @@
       <router-link to ="/skills">skills</router-link>
       <router-link to ="/courier">courier</router-link>
       <router-link to ="/project">project</router-link> -->
-      <a href="#index">home</a>
+      <a href="#main">home</a>
       <a href="#skills">skills</a>
       <a href="#courier">courier</a>
       <a href="#project">project</a>
