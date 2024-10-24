@@ -1,5 +1,10 @@
 <template>
-    <div id="project" class="project">프로젝트 페이지</div>
+    <div id="project" class="project">
+        <div class="contents">
+            PlayTable
+            Portfolio
+        </div>
+    </div>
 </template>
 
 <script>

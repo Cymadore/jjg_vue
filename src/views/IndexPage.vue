@@ -1,5 +1,12 @@
 <template>
-    <div id="main" class="main">메인페이지</div>
+    <div id="main" class="main">
+        <div class="contents">
+            장재근
+            프론트 엔드 개발자
+            안녕하세요. 4년차 프론트엔드 개발자 장재근입니다.
+        </div>
+        
+    </div>
     <SkillsPage />
     <CourierPage />
     <ProjectPage />

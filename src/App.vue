@@ -57,7 +57,8 @@ import { onBeforeUnmount, onMounted, ref } from 'vue';
       height:60px;;
       display: ininline-block; 
       .bar-content {
-        width:1280px;
+        width:100%;
+        max-width:1280px;
         margin: 0px auto;
         position: relative;
         a {

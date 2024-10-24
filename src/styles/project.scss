@@ -3,5 +3,10 @@
     min-height: 800px;
     border-bottom: 1px;
     background-color: blue;
-    padding:60px;
+    padding:60px 0;
+    .contents{
+        max-width:1280px;
+        margin: 0 auto;
+
+    }
 }

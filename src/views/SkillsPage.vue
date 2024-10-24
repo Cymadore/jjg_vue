@@ -1,5 +1,16 @@
 <template>
-    <div  id="skills" class="skills">기술 페이지</div>
+    <div  id="skills" class="skills">
+        <div class="contents">
+            프론트엔드
+            HTML5
+            CSS3
+            TailwindCSS
+            JavaScript
+            React
+            Vue.js
+            Next.js
+        </div>
+    </div>
 </template>
 
 <script>
