@@ -5,10 +5,12 @@
       <router-link to ="/skills">skills</router-link>
       <router-link to ="/courier">courier</router-link>
       <router-link to ="/project">project</router-link> -->
-      <a href="#main">home</a>
-      <a href="#skills">skills</a>
-      <a href="#courier">courier</a>
-      <a href="#project">project</a>
+      <div class="bar-content">
+        <a href="#main">home</a>
+        <a href="#skills">skills</a>
+        <a href="#courier">courier</a>
+        <a href="#project">project</a>
+      </div>
     </div>
   </div>
   <router-view />
@@ -42,7 +44,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue';
 </script>
 
 <style lang="scss">
-  @import "@/styles/global";
+  @use "@/styles/global";
   #nav{
     position:fixed;
     width:100%;
@@ -53,22 +55,26 @@ import { onBeforeUnmount, onMounted, ref } from 'vue';
       background-color: rgba(cadetblue,1);
       z-index: 7;
       height:60px;;
-      margin: 0px auto;
-      width: 1280px;
-      position: relative;
-      display: ininline-block;
-      a {
-        display: inline-block;
-        vertical-align: middle;
-        color: #ffffff;
-        margin: 10px 0px 0px 39px;
-        font-family: SpoqaHanSans;
-        font-weight: bold;
-        font-size: 18px;
+      display: ininline-block; 
+      .bar-content {
+        width:1280px;
+        margin: 0px auto;
+        position: relative;
+        a {
+          display: inline-block;
+          vertical-align: middle;
+          color: #ffffff;
+          margin: 10px 0px 0px 39px;
+          font-family: SpoqaHanSans;
+          font-weight: bold;
+          font-size: 18px;
+        }
+
       }
     }
     .nav-bar-hidden{
       background-color: rgba(cadetblue,0.2);
     }
   }
+  
 </style>

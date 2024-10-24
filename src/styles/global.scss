@@ -1,7 +1,7 @@
-@import "main";
-@import "skills";
-@import "project";
-@import "courier";
+@use "main";
+@use "skills";
+@use "project";
+@use "courier";
 
 .table{ 
     border-collapse:collapse;
