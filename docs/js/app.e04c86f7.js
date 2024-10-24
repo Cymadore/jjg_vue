@@ -214,7 +214,7 @@ const routes = [{
   component: ProjectPage
 }];
 const router = (0,vue_router/* createRouter */.aE)({
-  history: (0,vue_router/* createWebHistory */.LA)(),
+  history: (0,vue_router/* createWebHistory */.LA)("/jjg_vue/"),
   routes
 });
 /* harmony default export */ var src_router = (router);
