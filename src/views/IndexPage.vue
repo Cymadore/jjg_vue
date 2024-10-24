@@ -1,25 +1,25 @@
 <template>
     <div id="main" class="main">
         <div class="contents">
-            장재근
-            프론트 엔드 개발자
-            안녕하세요. 4년차 프론트엔드 개발자 장재근입니다.
+            <h1>장재근</h1>
+            <h2>프론트엔드 개발자</h2>
+            <span>안녕하세요. 4년차 프론트엔드 개발자 장재근 입니다.</span>
         </div>
         
     </div>
     <SkillsPage />
-    <CourierPage />
+    <CareerPage />
     <ProjectPage />
 </template>
 
 <script>
-import CourierPage from './CourierPage.vue';
+import CareerPage from './CareerPage.vue';
 import ProjectPage from './ProjectPage.vue';
 import SkillsPage from './SkillsPage.vue';
 
     export default {
         components: {
-            CourierPage,
+            CareerPage,
             SkillsPage,
             ProjectPage
         }

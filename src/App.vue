@@ -1,14 +1,10 @@
 <template>
   <div id="nav">
     <div class="nav-bar" :class="{'nav-bar-hidden':menuhidden}">
-      <!-- <router-link to ="/">home</router-link>
-      <router-link to ="/skills">skills</router-link>
-      <router-link to ="/courier">courier</router-link>
-      <router-link to ="/project">project</router-link> -->
       <div class="bar-content">
         <a href="#main">home</a>
         <a href="#skills">skills</a>
-        <a href="#courier">courier</a>
+        <a href="#career">career</a>
         <a href="#project">project</a>
       </div>
     </div>
@@ -52,7 +48,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue';
     height:60px;
     top:0;
     .nav-bar{
-      background-color: rgba(cadetblue,1);
+      background-color: rgba(#2a2a2a,1);
       z-index: 7;
       height:60px;;
       display: ininline-block; 
@@ -74,7 +70,7 @@ import { onBeforeUnmount, onMounted, ref } from 'vue';
       }
     }
     .nav-bar-hidden{
-      background-color: rgba(cadetblue,0.2);
+      background-color: rgba(#2a2a2a,0.2);
     }
   }
   

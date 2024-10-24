@@ -1,14 +1,18 @@
 <template>
     <div  id="skills" class="skills">
         <div class="contents">
-            프론트엔드
-            HTML5
-            CSS3
-            TailwindCSS
-            JavaScript
-            React
-            Vue.js
-            Next.js
+            <div>
+                <span></span>
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+            </div>
+            <div>
+                <span></span>
+                <span>Vue.js</span>
+                <span>Next.js</span>
+                <span>React</span>
+            </div>
         </div>
     </div>
 </template>
