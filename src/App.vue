@@ -4,8 +4,8 @@
       <div class="bar-content">
         <a href="#main">home</a>
         <a href="#skills">skills</a>
-        <a href="#career">career</a>
         <a href="#project">project</a>
+        <a href="#career">career</a>
       </div>
     </div>
   </div>

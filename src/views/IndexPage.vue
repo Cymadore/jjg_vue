@@ -8,8 +8,8 @@
         
     </div>
     <SkillsPage />
-    <CareerPage />
     <ProjectPage />
+    <CareerPage />
 </template>
 
 <script>
