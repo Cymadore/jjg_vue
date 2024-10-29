@@ -3,7 +3,7 @@
         <div class="contents">
             <h1>나의 프로젝트</h1>
             <div class="project">
-                <img src="../img/playtable_home.png" alt="" class="projectThumbnail">
+                <img src="../img/playtable_home.webp" alt="" class="projectThumbnail">
                 <div class="projectSummary">
                     <div>보드게임 동호회 홈페이지 제작</div>
                     <div>사용기술 : Next.js, TailwindCss, Prisma.io</div>
