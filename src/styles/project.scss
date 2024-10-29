@@ -6,6 +6,31 @@
     .contents{
         max-width:1280px;
         margin: 0 auto;
+        .project{
+            .projectThumbnail{
+                display: inline-block;
+                width:30%;
+                max-width:720px;
+                margin-right: 2%;
+            }
+
+            .projectSummary{
+                display: inline-block;
+                vertical-align: top;
+                div{
+                    display: block;
+                    margin-bottom: 2%;
+                }
+                a{
+                    color: #e0e0e0;
+                }
+            }
+            .projectContent{
+                width:100%;
+                margin-top:2%;
+            }
+        }
+        
 
     }
 }

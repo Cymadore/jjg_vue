@@ -1,6 +1,7 @@
 <template>
     <div id="career" class="career">
         <div class="contents">
+            <h1>나의 경력</h1>
             <div>
                 주식회사 스페서(2024.03~2024.05, 2개월)
                 매장 공동 예약 플랫폼 개발 참여
