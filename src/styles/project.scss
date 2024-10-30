@@ -22,6 +22,20 @@
                     margin-bottom: 1em;
                     font-size:large;
                 }
+                .skillList{
+                    display: inline-block;
+                    margin:0 0.5em;
+                    span{
+                        font-size:large;
+                    }
+                    img{
+                        display: inline-block;
+                        width:1em;
+                        height:1em;
+                        vertical-align: middle;
+                        margin-right:0.5em;
+                    }
+                }
             }
             .projectContent{
                 width:100%;
