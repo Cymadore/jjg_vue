@@ -3,7 +3,7 @@
         <div class="contents">
             <h1>나의 프로젝트</h1>
             <div class="project">
-                <img src="../img/playtable_home.webp" alt="" class="projectThumbnail">
+                <img src="../img/projectImg/playtable/pt_main.webp" alt="" class="projectThumbnail">
                 <div class="projectSummary">
                     <div>보드게임 동호회 홈페이지 제작</div>
                     <div>사용기술 : Next.js, TailwindCss, Prisma.io</div>
@@ -12,7 +12,8 @@
                     <a href="https://playtable-one.vercel.app/">페이지 바로가기</a>
                 </div>
                 <div class="projectContent">
-                    프로젝트 기능 소개
+                    <h2>프로젝트 기능 소개</h2>
+                    
                 </div>
             </div>
         </div>
