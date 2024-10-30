@@ -6,6 +6,35 @@
     .contents{
         max-width:1280px;
         margin: 0 auto;
-
+        .skillCategory{
+            margin-bottom:2em;
+            .categoryTitle{
+                font-size: x-large;
+                font-weight: bold;
+                margin-bottom: 1em;
+            }
+            .skill{
+                display: inline-block;
+                margin-right: 0.5em;
+                padding: 0.5em;
+                border-radius: 0.5em;
+                background-color: #EDE1D0;
+                span{
+                    color:#2c3e50;
+                }
+            }
+        }
+        span{
+            font-size: large;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+        img{
+            display: inline-block;
+            width:2em;
+            height:2em;
+            vertical-align: middle;
+            margin-right:0.5em;
+        }
     }
 }

@@ -11,20 +11,22 @@
                 display: inline-block;
                 width:30%;
                 max-width:720px;
-                margin-right: 2%;
+                margin-right: 1em;
             }
 
             .projectSummary{
                 display: inline-block;
                 vertical-align: top;
-                div{
+                div,a{
                     display: block;
-                    margin-bottom: 2%;
+                    margin-bottom: 1em;
+                    font-size:large;
                 }
             }
             .projectContent{
                 width:100%;
-                margin-top:2%;
+                margin-top:1em;
+                font-size:large;
             }
         }
         
