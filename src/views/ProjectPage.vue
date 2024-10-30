@@ -11,11 +11,11 @@
                         <img :src="getIconPath(skill)" alt="">
                         <span>{{ skill.name }}</span>
                     </div></div>
-                    <div>진행 기간 : 2024.05~진행중</div>
-                    <div>개발 인원 : 1인</div>
-                    <a href="https://playtable-one.vercel.app/">페이지 바로가기</a>
+                    <div>진행 기간 : {{ item.duration }}</div>
+                    <div>개발 인원 : {{item.developer}}인</div>
+                    <a :href="item.link">페이지 바로가기</a>
+                    <div>상세보기</div>
                 </div>
-                <h3>프로젝트 상세 보기</h3>
             </div>
         </div>
     </div>
