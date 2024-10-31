@@ -52,6 +52,7 @@
         },
         mounted() {
             this.projectData = _.filter(data, o => o.id == this.$route.params.id)[0];
+            window.scrollTo(0,0);
         },
         setup() {
             function getIconPath(item){
