@@ -48,7 +48,7 @@
                 <div>
                     사용 기술 : <div class="skill"><img src="../img/JavaScript.svg" alt=""><span>JavaScript</span></div>
                     <div class="skill"><img src="../img/React.svg" alt=""><span>React</span></div>
-                    <div class="skill"><img src="../img/Firebase-Light.svg" alt=""><span>Firebase</span></div>
+                    <div class="skill"><img src="../img/TailwindCSS-Dark.svg" alt=""><span>TailwindCSS</span></div>
                 </div>
                 <h4>주요 업무</h4>
                 <ol>

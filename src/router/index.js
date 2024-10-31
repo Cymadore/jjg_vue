@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 // import ProjectPage from "@/views/ProjectPage.vue"
 // import SkillsPage from "@/views/SkillsPage.vue"
 import IndexPage from "@/views/IndexPage.vue"
+import ProjectDetail from "@/views/ProjectDetail.vue";
 // import CourierPage from "@/views/CareerPage.vue"
 
 const routes = [
@@ -12,6 +13,11 @@ const routes = [
       meta: {
         title:"장재근 - 웹 프론트엔드 개발자 포트폴리오",
       }
+    },
+    {
+      path: "/project/:id",
+      name: "project",
+      component: ProjectDetail,
     },
     // {
     //   path: "/skills",

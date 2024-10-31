@@ -3,9 +3,11 @@
         <div class="contents">
             <div class="title">
                 <h1>장재근</h1>
-                <h2>프론트엔드 개발자</h2>
-                <span>안녕하세요. 4년차 프론트엔드 개발자 장재근 입니다.</span>
-                <span>jjg0111@naver.com</span>
+                <span>안녕하세요. 꾸준히 공부하고 성장하는 프론트엔드 개발자 장재근 입니다.</span>
+                <div class="contact">
+                    <a href="mailto:jjg0111@naver.com">이메일 : jjg0111@naver.com</a>
+                    <a href="https://github.com/Cymadore/">깃허브: Cymadore</a>
+                </div>
             </div>
         </div>
     </div>

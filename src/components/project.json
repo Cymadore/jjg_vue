@@ -9,6 +9,25 @@
         "skills": [{"name":"JavaScript","icon":"JavaScript.svg"},{"name":"Next.js","icon":"NextJS-Light.svg"},{"name":"TailwindCSS","icon":"TailwindCSS-Dark.svg"}],
         "tools" : [{"name":"VS Code", "icon":""}],
         "link" : "https://playtable-one.vercel.app/",
-        "detail": []
+        "detail": [
+            {
+                "id":0,
+                "title":"네이버 로그인 구현",
+                "img":["pt_menu_login.webp","pt_login.webp", "pt_menu.webp"],
+                "content" : "네이버 로그인 API를 이용하여 네이버 계정으로 회원 가입 및 로그인 가능"
+            },
+            {
+                "id":1,
+                "title":"네이버 지도 api 연동",
+                "img":["pt_Contact.webp"],
+                "content" : "ncloud api를 이용하여 네이버 지도를 이용해 동호회 모임장 위치를 지도로 표시"
+            },
+            {
+                "id":2,
+                "title":"게임 결과 등록",
+                "img":["pt_resultApply.webp"],
+                "content" : "동호회에서 진행한 게임의 결과를 등록하기 위해 함께한 회원, 진행한 게임의 종류 등을 검색하여 결과를 등록 가능"
+            }
+        ]
     }
 ]

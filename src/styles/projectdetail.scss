@@ -1,0 +1,76 @@
+.projectdetail{
+    width:100%;
+    min-height: 800px;
+    border-bottom: 1px;
+    padding:60px 0;
+    .contents{
+        max-width:1280px;
+        margin: 0 auto;
+        .projectSummary{
+            width:100%;
+            .imgContainer{
+                display: inline-block;
+                width:30%;
+                margin-right:2%;
+                img{
+                    width:100%;
+                }
+            }
+            .projectInfo{
+                display: inline-block;
+                vertical-align: top;
+                div{
+                    font-size: x-large;
+                    font-weight: bold;
+                    margin-bottom: 1rem;
+                }
+                .skillList{
+                    display: inline-block;
+                    margin-right:0.5em;
+                    margin-bottom: 0;
+                    span{
+                        font-weight:bold;
+                        font-size:x-large;
+                    }
+                    img{
+                        display: inline-block;
+                        width:1em;
+                        height:1em;
+                        vertical-align: middle;
+                        margin-right:0.5em;
+                    }
+                }
+                .linkButton{
+                    display: inline-block;
+                    padding: 0.5em;
+                    border-radius: 0.5em;
+                    background-color: #EDE1D0;
+                    color:#2c3e50;
+                    font-size: x-large;
+                    font-weight: bolder;
+                }
+            }
+
+        }
+        .projectFunction{
+            margin-bottom:2rem;
+            .imgContainer{
+                width: 100%;
+                display: flex;
+                margin-bottom:1rem;
+                .imgBox {
+                    overflow: hidden;
+                    display: inline-block;
+                    height:460px;
+                    img{
+                        height:100%;
+                    }
+                }
+            }
+            .functionContent{
+                font-size: large;
+                font-weight: bold;
+            }
+        }
+    }
+}
