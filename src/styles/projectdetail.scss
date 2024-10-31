@@ -61,9 +61,11 @@
                 .imgBox {
                     overflow: hidden;
                     display: inline-block;
-                    height:460px;
+                    width:100%;
+                    max-width:615px;
+                    max-height:460px;
                     img{
-                        height:100%;
+                        width:100%;
                     }
                 }
             }
