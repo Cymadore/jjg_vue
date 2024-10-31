@@ -1,7 +1,7 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 2413:
+/***/ 9587:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12,7 +12,7 @@ var runtime_dom_esm_bundler = __webpack_require__(5130);
 var runtime_core_esm_bundler = __webpack_require__(6768);
 // EXTERNAL MODULE: ./node_modules/@vue/shared/dist/shared.esm-bundler.js
 var shared_esm_bundler = __webpack_require__(4232);
-;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=template&id=43526e34
+;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=template&id=7b8e75f7
 
 const _hoisted_1 = {
   id: "nav"
@@ -23,9 +23,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     class: (0,shared_esm_bundler/* normalizeClass */.C4)(["nav-bar", {
       'nav-bar-hidden': $setup.menuhidden
     }])
-  }, _cache[0] || (_cache[0] = [(0,runtime_core_esm_bundler/* createStaticVNode */.Fv)("<div class=\"bar-content\"><a href=\"/\">home</a><a href=\"/#skills\">skills</a><a href=\"/#project\">project</a><a href=\"/#career\">career</a></div>", 1)]), 2)]), (0,runtime_core_esm_bundler/* createVNode */.bF)(_component_router_view)], 64);
+  }, _cache[0] || (_cache[0] = [(0,runtime_core_esm_bundler/* createStaticVNode */.Fv)("<div class=\"bar-content\"><a href=\"/jjg_vue\">home</a><a href=\"/jjg_vue/#skills\">skills</a><a href=\"/jjg_vue/#project\">project</a><a href=\"/jjg_vue/#career\">career</a></div>", 1)]), 2)]), (0,runtime_core_esm_bundler/* createVNode */.bF)(_component_router_view)], 64);
 }
-;// ./src/App.vue?vue&type=template&id=43526e34
+;// ./src/App.vue?vue&type=template&id=7b8e75f7
 
 // EXTERNAL MODULE: ./node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
 var reactivity_esm_bundler = __webpack_require__(144);
@@ -57,10 +57,10 @@ var reactivity_esm_bundler = __webpack_require__(144);
 });
 ;// ./src/App.vue?vue&type=script&lang=js
  
-;// ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-22.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=style&index=0&id=43526e34&lang=scss
+;// ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-22.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/App.vue?vue&type=style&index=0&id=7b8e75f7&lang=scss
 // extracted by mini-css-extract-plugin
 
-;// ./src/App.vue?vue&type=style&index=0&id=43526e34&lang=scss
+;// ./src/App.vue?vue&type=style&index=0&id=7b8e75f7&lang=scss
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(1241);
@@ -983,7 +983,7 @@ module.exports = __webpack_require__.p + "img/pt_resultList.4f74495c.webp";
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], function() { return __webpack_require__(2413); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], function() { return __webpack_require__(9587); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

@@ -2,10 +2,10 @@
   <div id="nav">
     <div class="nav-bar" :class="{'nav-bar-hidden':menuhidden}">
       <div class="bar-content">
-        <a href="/">home</a>
-        <a href="/#skills">skills</a>
-        <a href="/#project">project</a>
-        <a href="/#career">career</a>
+        <a href="/jjg_vue">home</a>
+        <a href="/jjg_vue/#skills">skills</a>
+        <a href="/jjg_vue/#project">project</a>
+        <a href="/jjg_vue/#career">career</a>
       </div>
     </div>
   </div>
