@@ -6,7 +6,7 @@
         "developer" : 1,
         "imgpath" : "playtable",
         "thumbnail" : "pt_main.webp",
-        "skills": [{"name":"JavaScript","icon":"JavaScript.svg"},{"name":"Next.js","icon":"NextJS-Light.svg"},{"name":"TailwindCSS","icon":"TailwindCSS-Dark.svg"}],
+        "skills": [{"name":"JavaScript","icon":"JavaScript.svg"},{"name":"Next.js","icon":"NextJS-Light.svg"},{"name":"TailwindCSS","icon":"TailwindCSS-Dark.svg"},{"name":"Prisma.io","icon":"Prisma.svg"}],
         "tools" : [{"name":"VS Code", "icon":""}],
         "link" : "https://playtable-one.vercel.app/",
         "detail": [
