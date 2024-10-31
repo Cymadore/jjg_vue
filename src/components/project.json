@@ -25,7 +25,7 @@
             {
                 "id":2,
                 "title":"게임 결과 등록",
-                "img":["pt_resultApply.webp"],
+                "img":["pt_resultApply.webp","pt_resultList.webp"],
                 "content" : "동호회에서 진행한 게임의 결과를 등록하기 위해 함께한 회원, 진행한 게임의 종류 등을 검색하여 결과를 등록 가능"
             }
         ],
