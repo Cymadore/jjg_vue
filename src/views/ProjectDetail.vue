@@ -29,6 +29,13 @@
                 
                 <div class="functionContent">{{ item.content }}</div>
             </div>
+            <div class="divider"></div>
+            <div class="todoList">
+                <h2>앞으로 할 일</h2>
+                <ul>
+                    <li v-for="(todo, todoIndex) in projectData.todo" :key="todoIndex">{{ todo }}</li>
+                </ul>
+            </div>
 
         </div>
     </div>

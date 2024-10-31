@@ -1,7 +1,7 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 4708:
+/***/ 2413:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -181,7 +181,7 @@ function ProjectPagevue_type_template_id_53a542fc_render(_ctx, _cache, $props, $
 ;// ./src/views/ProjectPage.vue?vue&type=template&id=53a542fc
 
 ;// ./src/components/project.json
-var project_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":0,"title":"보드게임 동호회 홈페이지 제작","duration":"2024.05~진행중","developer":1,"imgpath":"playtable","thumbnail":"pt_main.webp","skills":[{"name":"JavaScript","icon":"JavaScript.svg"},{"name":"Next.js","icon":"NextJS-Light.svg"},{"name":"TailwindCSS","icon":"TailwindCSS-Dark.svg"}],"tools":[{"name":"VS Code","icon":""}],"link":"https://playtable-one.vercel.app/","detail":[{"id":0,"title":"네이버 로그인 구현","img":["pt_menu_login.webp","pt_login.webp","pt_menu.webp"],"content":"네이버 로그인 API를 이용하여 네이버 계정으로 회원 가입 및 로그인 가능"},{"id":1,"title":"네이버 지도 api 연동","img":["pt_Contact.webp"],"content":"ncloud api를 이용하여 네이버 지도를 이용해 동호회 모임장 위치를 지도로 표시"},{"id":2,"title":"게임 결과 등록","img":["pt_resultApply.webp"],"content":"동호회에서 진행한 게임의 결과를 등록하기 위해 함께한 회원, 진행한 게임의 종류 등을 검색하여 결과를 등록 가능"}]}]');
+var project_namespaceObject = /*#__PURE__*/JSON.parse('[{"id":0,"title":"보드게임 동호회 홈페이지 제작","duration":"2024.05~진행중","developer":1,"imgpath":"playtable","thumbnail":"pt_main.webp","skills":[{"name":"JavaScript","icon":"JavaScript.svg"},{"name":"Next.js","icon":"NextJS-Light.svg"},{"name":"TailwindCSS","icon":"TailwindCSS-Dark.svg"}],"tools":[{"name":"VS Code","icon":""}],"link":"https://playtable-one.vercel.app/","detail":[{"id":0,"title":"네이버 로그인 구현","img":["pt_menu_login.webp","pt_login.webp","pt_menu.webp"],"content":"네이버 로그인 API를 이용하여 네이버 계정으로 회원 가입 및 로그인 가능"},{"id":1,"title":"네이버 지도 api 연동","img":["pt_Contact.webp"],"content":"ncloud api를 이용하여 네이버 지도를 이용해 동호회 모임장 위치를 지도로 표시"},{"id":2,"title":"게임 결과 등록","img":["pt_resultApply.webp"],"content":"동호회에서 진행한 게임의 결과를 등록하기 위해 함께한 회원, 진행한 게임의 종류 등을 검색하여 결과를 등록 가능"}],"todo":["게임 결과 등록시 ELO 포인트 계산을 적용","각 회원의 ELO 수치에 따른 랭킹 페이지 제작","고도화 작업 진행"]}]');
 ;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/views/ProjectPage.vue?vue&type=script&lang=js
 
 const projectData = project_namespaceObject;
@@ -285,22 +285,22 @@ const SkillsPage_exports_ = /*#__PURE__*/(0,exportHelper/* default */.A)(SkillsP
 const IndexPage_exports_ = /*#__PURE__*/(0,exportHelper/* default */.A)(IndexPagevue_type_script_lang_js, [['render',IndexPagevue_type_template_id_016c84b4_render]])
 
 /* harmony default export */ var IndexPage = (IndexPage_exports_);
-;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/views/ProjectDetail.vue?vue&type=template&id=2b7121e8
+;// ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/views/ProjectDetail.vue?vue&type=template&id=5ad97346
 
-const ProjectDetailvue_type_template_id_2b7121e8_hoisted_1 = {
+const ProjectDetailvue_type_template_id_5ad97346_hoisted_1 = {
   class: "projectdetail"
 };
-const ProjectDetailvue_type_template_id_2b7121e8_hoisted_2 = {
+const ProjectDetailvue_type_template_id_5ad97346_hoisted_2 = {
   class: "contents"
 };
-const ProjectDetailvue_type_template_id_2b7121e8_hoisted_3 = {
+const ProjectDetailvue_type_template_id_5ad97346_hoisted_3 = {
   class: "projectSummary"
 };
-const ProjectDetailvue_type_template_id_2b7121e8_hoisted_4 = {
+const ProjectDetailvue_type_template_id_5ad97346_hoisted_4 = {
   class: "imgContainer"
 };
-const ProjectDetailvue_type_template_id_2b7121e8_hoisted_5 = ["src"];
-const ProjectDetailvue_type_template_id_2b7121e8_hoisted_6 = {
+const ProjectDetailvue_type_template_id_5ad97346_hoisted_5 = ["src"];
+const ProjectDetailvue_type_template_id_5ad97346_hoisted_6 = {
   class: "projectInfo"
 };
 const _hoisted_7 = ["src"];
@@ -312,11 +312,14 @@ const _hoisted_10 = ["src"];
 const _hoisted_11 = {
   class: "functionContent"
 };
-function ProjectDetailvue_type_template_id_2b7121e8_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,runtime_core_esm_bundler/* openBlock */.uX)(), (0,runtime_core_esm_bundler/* createElementBlock */.CE)("div", ProjectDetailvue_type_template_id_2b7121e8_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_2b7121e8_hoisted_2, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("h1", null, (0,shared_esm_bundler/* toDisplayString */.v_)($data.projectData.title), 1), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_2b7121e8_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_2b7121e8_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("img", {
+const _hoisted_12 = {
+  class: "todoList"
+};
+function ProjectDetailvue_type_template_id_5ad97346_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,runtime_core_esm_bundler/* openBlock */.uX)(), (0,runtime_core_esm_bundler/* createElementBlock */.CE)("div", ProjectDetailvue_type_template_id_5ad97346_hoisted_1, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_5ad97346_hoisted_2, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("h1", null, (0,shared_esm_bundler/* toDisplayString */.v_)($data.projectData.title), 1), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_5ad97346_hoisted_3, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_5ad97346_hoisted_4, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("img", {
     src: $setup.getImgPath($data.projectData.imgpath, $data.projectData.thumbnail),
     class: "projectImg"
-  }, null, 8, ProjectDetailvue_type_template_id_2b7121e8_hoisted_5)]), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_2b7121e8_hoisted_6, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", null, [_cache[0] || (_cache[0] = (0,runtime_core_esm_bundler/* createTextVNode */.eW)("사용기술 : ")), ((0,runtime_core_esm_bundler/* openBlock */.uX)(true), (0,runtime_core_esm_bundler/* createElementBlock */.CE)(runtime_core_esm_bundler/* Fragment */.FK, null, (0,runtime_core_esm_bundler/* renderList */.pI)($data.projectData.skills, (skill, i) => {
+  }, null, 8, ProjectDetailvue_type_template_id_5ad97346_hoisted_5)]), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", ProjectDetailvue_type_template_id_5ad97346_hoisted_6, [(0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", null, [_cache[0] || (_cache[0] = (0,runtime_core_esm_bundler/* createTextVNode */.eW)("사용기술 : ")), ((0,runtime_core_esm_bundler/* openBlock */.uX)(true), (0,runtime_core_esm_bundler/* createElementBlock */.CE)(runtime_core_esm_bundler/* Fragment */.FK, null, (0,runtime_core_esm_bundler/* renderList */.pI)($data.projectData.skills, (skill, i) => {
     return (0,runtime_core_esm_bundler/* openBlock */.uX)(), (0,runtime_core_esm_bundler/* createElementBlock */.CE)("div", {
       key: i,
       class: "skillList"
@@ -327,9 +330,9 @@ function ProjectDetailvue_type_template_id_2b7121e8_render(_ctx, _cache, $props,
   }), 128))]), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", null, "진행 기간 : " + (0,shared_esm_bundler/* toDisplayString */.v_)($data.projectData.duration), 1), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", null, "개발 인원 : " + (0,shared_esm_bundler/* toDisplayString */.v_)($data.projectData.developer) + "인", 1), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("a", {
     href: $data.projectData.link,
     class: "linkButton"
-  }, "페이지 바로가기", 8, _hoisted_8)])]), _cache[1] || (_cache[1] = (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", {
+  }, "페이지 바로가기", 8, _hoisted_8)])]), _cache[2] || (_cache[2] = (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", {
     class: "divider"
-  }, null, -1)), _cache[2] || (_cache[2] = (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("h1", null, "기능", -1)), ((0,runtime_core_esm_bundler/* openBlock */.uX)(true), (0,runtime_core_esm_bundler/* createElementBlock */.CE)(runtime_core_esm_bundler/* Fragment */.FK, null, (0,runtime_core_esm_bundler/* renderList */.pI)($data.projectData.detail, (item, index) => {
+  }, null, -1)), _cache[3] || (_cache[3] = (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("h1", null, "기능", -1)), ((0,runtime_core_esm_bundler/* openBlock */.uX)(true), (0,runtime_core_esm_bundler/* createElementBlock */.CE)(runtime_core_esm_bundler/* Fragment */.FK, null, (0,runtime_core_esm_bundler/* renderList */.pI)($data.projectData.detail, (item, index) => {
     return (0,runtime_core_esm_bundler/* openBlock */.uX)(), (0,runtime_core_esm_bundler/* createElementBlock */.CE)("div", {
       class: "projectFunction",
       key: 'detail' + index
@@ -342,9 +345,15 @@ function ProjectDetailvue_type_template_id_2b7121e8_render(_ctx, _cache, $props,
         alt: ""
       }, null, 8, _hoisted_10)]);
     }), 128))]), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", _hoisted_11, (0,shared_esm_bundler/* toDisplayString */.v_)(item.content), 1)]);
-  }), 128))])]);
+  }), 128)), _cache[4] || (_cache[4] = (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", {
+    class: "divider"
+  }, null, -1)), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("div", _hoisted_12, [_cache[1] || (_cache[1] = (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("h2", null, "앞으로 할 일", -1)), (0,runtime_core_esm_bundler/* createElementVNode */.Lk)("ul", null, [((0,runtime_core_esm_bundler/* openBlock */.uX)(true), (0,runtime_core_esm_bundler/* createElementBlock */.CE)(runtime_core_esm_bundler/* Fragment */.FK, null, (0,runtime_core_esm_bundler/* renderList */.pI)($data.projectData.todo, (todo, todoIndex) => {
+    return (0,runtime_core_esm_bundler/* openBlock */.uX)(), (0,runtime_core_esm_bundler/* createElementBlock */.CE)("li", {
+      key: todoIndex
+    }, (0,shared_esm_bundler/* toDisplayString */.v_)(todo), 1);
+  }), 128))])])])]);
 }
-;// ./src/views/ProjectDetail.vue?vue&type=template&id=2b7121e8
+;// ./src/views/ProjectDetail.vue?vue&type=template&id=5ad97346
 
 // EXTERNAL MODULE: ./node_modules/lodash/lodash.js
 var lodash = __webpack_require__(8626);
@@ -390,7 +399,7 @@ var lodash_default = /*#__PURE__*/__webpack_require__.n(lodash);
 
 
 ;
-const ProjectDetail_exports_ = /*#__PURE__*/(0,exportHelper/* default */.A)(ProjectDetailvue_type_script_lang_js, [['render',ProjectDetailvue_type_template_id_2b7121e8_render]])
+const ProjectDetail_exports_ = /*#__PURE__*/(0,exportHelper/* default */.A)(ProjectDetailvue_type_script_lang_js, [['render',ProjectDetailvue_type_template_id_5ad97346_render]])
 
 /* harmony default export */ var ProjectDetail = (ProjectDetail_exports_);
 ;// ./src/router/index.js
@@ -974,7 +983,7 @@ module.exports = __webpack_require__.p + "img/pt_resultList.4f74495c.webp";
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], function() { return __webpack_require__(4708); })
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [504], function() { return __webpack_require__(2413); })
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
